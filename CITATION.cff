@@ -1,0 +1,12 @@
+abstract: This is a test
+authors:
+- email: 46429375+sgfost@users.noreply.github.com
+  family-names: ''
+  given-names: sgfost
+cff-version: 1.2.0
+keywords:
+- agent based model
+license: http://www.gnu.org/licenses/gpl-2.0.html
+message: If you use this software, please cite it using the metadata from this file.
+title: My example model
+version: 1.0.0
