@@ -1,1 +1,50 @@
-{"@context": "http://schema.org", "@type": "SoftwareSourceCode", "isPartOf": {"@type": "WebApplication", "applicationCategory": "Computational Modeling Software Repository", "operatingSystem": "Any", "name": "CoMSES Model Library", "url": "https://www.comses.net/codebases"}, "publisher": {"@id": "https://ror.org/015bsfc29", "@type": "Organization", "name": "CoMSES Net", "url": "https://www.comses.net"}, "provider": {"@id": "https://ror.org/015bsfc29", "@type": "Organization", "name": "CoMSES Net", "url": "https://www.comses.net"}, "name": "My example model", "abstract": "", "description": "This is a test", "version": "1.0.0", "targetProduct": {"@type": "SoftwareApplication", "name": "My example model v1.0.0", "operatingSystem": "platform_independent", "applicationCategory": "Computational Model"}, "programmingLanguage": [{"@type": "ComputerLanguage", "name": "C"}], "author": [{"@type": "Person", "givenName": "sgfost", "familyName": "", "email": "46429375+sgfost@users.noreply.github.com"}], "identifier": "https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/", "dateCreated": "2024-10-10T16:37:05.786322+00:00", "dateModified": "2024-10-10T16:39:09.918202+00:00", "keywords": ["agent based model"], "runtimePlatform": ["None"], "url": "https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/", "citation": [], "license": "http://www.gnu.org/licenses/gpl-2.0.html", "releaseNotes": "first release, added dummy files", "@id": "https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/"}
+{
+  "@id": "https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/",
+  "url": "https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/",
+  "name": "My example model",
+  "@type": "SoftwareSourceCode",
+  "author": [
+    {
+      "@id": "_:author_1",
+      "@type": "Person",
+      "email": "46429375+sgfost@users.noreply.github.com",
+      "givenName": "sgfost"
+    }
+  ],
+  "license": {
+    "url": "http://www.gnu.org/licenses/gpl-2.0.html",
+    "name": "GPL-2.0",
+    "@type": "CreativeWork"
+  },
+  "version": "1.0.0",
+  "@context": "https://w3id.org/codemeta/3.0",
+  "keywords": [
+    "agent based model"
+  ],
+  "publisher": {
+    "@id": "https://ror.org/015bsfc29",
+    "url": "https://www.comses.net",
+    "name": "CoMSES Net",
+    "@type": "Organization"
+  },
+  "identifier": "https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/",
+  "dateCreated": "2024-10-10",
+  "description": "This is a test",
+  "downloadUrl": "https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/download/",
+  "dateModified": "2024-10-10",
+  "releaseNotes": "first release, added dummy files\n\n[this addition should get added to the release 1.0.0 branch]",
+  "copyrightYear": 2024,
+  "datePublished": "2024-10-10",
+  "codeRepository": "https://github.com/sgfost/my-example-model",
+  "operatingSystem": "platform_independent",
+  "runtimePlatform": [
+    "None"
+  ],
+  "applicationCategory": "Computational Model",
+  "programmingLanguage": [
+    {
+      "name": "C",
+      "@type": "ComputerLanguage"
+    }
+  ]
+}

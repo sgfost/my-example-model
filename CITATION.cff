@@ -1,12 +1,18 @@
 abstract: This is a test
 authors:
 - email: 46429375+sgfost@users.noreply.github.com
-  family-names: ''
   given-names: sgfost
 cff-version: 1.2.0
+date-released: '2024-10-10'
+identifiers:
+- type: url
+  value: https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/
 keywords:
 - agent based model
-license: http://www.gnu.org/licenses/gpl-2.0.html
+license: GPL-2.0
 message: If you use this software, please cite it using the metadata from this file.
+repository-code: https://github.com/sgfost/my-example-model
 title: My example model
+type: software
+url: https://staging.comses.net/codebases/bf832ea2-5966-45e1-b548-9b186d3dfe2d/releases/1.0.0/
 version: 1.0.0
